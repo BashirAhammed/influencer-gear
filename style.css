@@ -28,6 +28,14 @@ body {
      font-weight: 700;
      
 }
+.image-camera img {
+    overflow: hidden;
+}
+
+.image-camera:hover img {
+    transform: scale(1.3);
+    transition: transform 2s ease-in-out;
+}
 
 .prebook-section {
     display: flex;
@@ -80,6 +88,8 @@ h1 {
 }
 
 .collections-info-heading {
+    font-size: 30px;
+    color: rgb(53, 51, 51);
     text-align: center;
     margin-bottom: 70px;
 }
@@ -113,3 +123,44 @@ h1 {
     font-weight: 500;
     color:rgb(58, 56, 56);
 }
+
+.footer-tag {
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    margin-top: 80px;
+    height: 220px;
+    background-color: rgb(18, 18, 61);
+}
+
+.icon-tag {
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 568px){
+    .container {
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .nav-var .prebook-section {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width:768px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .nav-var .prebook-section {
+        flex-direction: column;
+    }
+    
+    
+}
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
