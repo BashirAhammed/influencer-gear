@@ -8,15 +8,15 @@ body {
     
 }
 #first-info {
-    margin-left: 55px;
-    font-size: 32px;
-    /* font-style: bold; */
+    margin-left: 65px;
+    font-size: 25px;
+    color: rgb(53, 51, 51);
     font-weight: 900;
 }
  .nav-item a {
-     text-decoration: none;
-     color: black;
-     margin-right: 30px;
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+    margin-right: 30px;
     
 
  }
@@ -29,13 +29,87 @@ body {
      
 }
 
+.prebook-section {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 110px ;
+    
+    
+
+
+}
+
 .booking-button {
-    /* border: 1px; */
+    
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: rgb(255, 71, 126);
     
     border-radius: 30px;
     text-decoration: none;
     color: white;
-    margin-top: 20px;
+    
+}
+
+.prebook-section img {
+    width: 85%;
+    margin-left: 60px;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 55px;
+    color: rgb(53, 51, 51);
+}
+#first-para {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 65%;
+    padding-left: 35px;
+    padding-right: 40px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+}
+
+.collections-info-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.collections img{
+    width: 260px;
+
+}
+
+.product-name{
+    line-height: 10px;
+    color:rgb(37, 37, 37);
+    font-weight: 400;
+    font-size: 22px;
+}
+.ratings {
+    font-size: 12px;
+}
+.rating-number {
+    padding-left: 25px;
+}
+.price{
+    font-weight: 100;
+}
+.star-fill {
+    color: orange;
+}
+.offers {
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(58, 56, 56);
 }
