@@ -86,6 +86,11 @@ h1 {
     margin-bottom: 50px;
 }
 
+/* .camera-image {
+    align-items: center;
+    margin-right: 120px;
+} */
+
 .thumbnail {
     width: 65%;
     padding-left: 35px;
@@ -140,6 +145,17 @@ h1 {
     color:rgb(58, 56, 56);
 }
 
+.align-right {
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.see-more {
+    text-decoration: none;
+    color:rgb(255, 71, 126);
+    font-weight: 700;
+}
+
 .footer-tag {
     text-align: center;
     color: white;
@@ -158,9 +174,12 @@ h1 {
 
 
 @media only screen and (max-width: 688px) {
-    .container{
+    .prebook-section{
         width: 100%;
         align-items: center;
+        margin-left: 80px;
+        flex-direction: column;
+
     }
     #first-info{
         text-align: center;
@@ -188,6 +207,7 @@ h1 {
     }
     .footer-tag {
         display: block;
+        margin-right: 20px;
     }
     /* .collection {
         flex-direction: column;
