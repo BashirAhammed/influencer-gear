@@ -1,3 +1,5 @@
+
+/* This is the style page of this website */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -172,7 +174,7 @@ h1 {
     font-size: 20px;
 }
 
-
+/* This is the mobile only media querry */
 @media only screen and (max-width: 688px) {
     .prebook-section{
         width: 100%;
@@ -213,3 +215,4 @@ h1 {
         flex-direction: column;
     } */
 }
+/* Mobile only media querry ends here  */
